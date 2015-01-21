@@ -13,7 +13,7 @@ public abstract class User extends Object implements UserLike
 	}
 
 	
-	public abstract void setName(String x) throws IOException;
+	public abstract void setName(String x) ;
 
 	public User(String name)
 	{

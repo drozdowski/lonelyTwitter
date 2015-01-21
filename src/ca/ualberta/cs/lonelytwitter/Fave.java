@@ -4,7 +4,7 @@ package ca.ualberta.cs.lonelytwitter;
 public class Fave
 {
 	private String faveTweet;
-	private String tweetName;
+	protected String tweetName;
 
 	public Fave(String tweetName)
 	{
